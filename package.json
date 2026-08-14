@@ -1,0 +1,12 @@
+{
+  "name": "pau-sanmartin-demo",
+  "version": "1.0.0",
+  "description": "Web demo para la comediante chilena Pau San Martín: landing entretenida + panel admin de fechas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin · Pau San Martín</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="admin-body">
+  <div class="admin-top">
+    <p><a class="back-link" href="/">← Volver al sitio</a></p>
+    <h1>🎛️ Panel de Pau</h1>
+    <p style="color:var(--muted)">Aquí cargas tus fechas y borras las que ya fueron. Puro poder.</p>
+  </div>
+
+  <div class="admin-panel">
+    <!-- Login -->
+    <section class="card" id="login-card">
+      <div class="demo-hint">
+        🔓 Demo: el PIN es <code>myriam2026</code>
+      </div>
+      <form id="login-form">
+        <label for="pin">PIN secreto</label>
+        <input type="password" id="pin" placeholder="tu pin mágico" autocomplete="off" required />
+        <div style="height:14px"></div>
+        <button class="btn btn-primary btn-block" type="submit">Entrar al backstage 🎪</button>
+      </form>
+    </section>
+
+    <!-- Panel -->
+    <section class="card" id="admin-card" hidden>
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:16px">
+        <h2 style="margin:0">Agregar nueva fecha</h2>
+        <button class="small-btn" id="logout-btn" type="button">Salir</button>
+      </div>
+
+      <form id="event-form" class="form-grid">
+        <div class="full">
+          <label for="f-title">Nombre del show / evento *</label>
+          <input id="f-title" required placeholder="&quot;MYRIAM&quot; - Show de stand-up comedy" />
+        </div>
+        <div>
+          <label for="f-date">Fecha *</label>
+          <input id="f-date" type="date" required />
+        </div>
+        <div>
+          <label for="f-time">Hora</label>
+          <input id="f-time" type="time" placeholder="21:00" />
+        </div>
+        <div>
+          <label for="f-city">Ciudad *</label>
+          <input id="f-city" required placeholder="Coyhaique" />
+        </div>
+        <div>
+          <label for="f-venue">Lugar / Venue *</label>
+          <input id="f-venue" required placeholder="Kuruf Patagonia" />
+        </div>
+        <div class="full">
+          <label for="f-address">Dirección</label>
+          <input id="f-address" placeholder="Calle, número, ciudad" />
+        </div>
+        <div>
+          <label for="f-price">Precio</label>
+          <input id="f-price" placeholder="GENERAL $10.000" />
+        </div>
+        <div>
+          <label for="f-ticket">Link de entradas</label>
+          <input id="f-ticket" type="url" placeholder="https://www.comediaticket.cl/..." />
+        </div>
+        <div class="full">
+          <label for="f-desc">Descripción (opcional)</label>
+          <textarea id="f-desc" placeholder="Un chisme que se salió de las manos…"></textarea>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">➕ Publicar fecha</button>
+          <button class="btn btn-ghost" type="reset">Limpiar</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="card" id="list-card" hidden>
+      <h2>📅 Fechas actuales</h2>
+      <div class="admin-events" id="admin-events">
+        <p class="loading">Cargando…</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

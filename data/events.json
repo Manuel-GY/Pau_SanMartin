@@ -1,0 +1,38 @@
+[
+  {
+    "id": "seed-palermo",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-08-05",
+    "time": "21:00",
+    "city": "Santiago",
+    "venue": "Palermo Teatro Bar",
+    "address": "Palermo Teatro Bar",
+    "price": "Consultar",
+    "ticketUrl": "https://linktr.ee/sumosacerdote_",
+    "description": "La historia de todo lo que puede salir mal. El chisme que se salió de las manos."
+  },
+  {
+    "id": "seed-aysen",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-08-21",
+    "time": "21:00",
+    "city": "Aysén",
+    "venue": "Bar Río Cuervo",
+    "address": "Sargento Aldea 1680, Aysén, Chile",
+    "price": "GENERAL $10.000",
+    "ticketUrl": "https://www.comediaticket.cl/shop/events_details/pau-san-martin-en-aysen_3qnqr",
+    "description": "\"Myriam\" es la historia de todo lo que puede salir mal, de lo que no debió pasar y cuyo único alivio es el ridículo y la exposición. Un chisme que se salió de las manos."
+  },
+  {
+    "id": "seed-coyhaique",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-08-22",
+    "time": "21:00",
+    "city": "Coyhaique",
+    "venue": "Kuruf Patagonia",
+    "address": "Kuruf Patagonia, Coyhaique, Chile",
+    "price": "GENERAL $10.000",
+    "ticketUrl": "https://www.comediaticket.cl/shop/events_details/pau-san-martin-en-coyhaique_qrn0x",
+    "description": "Una verdad compartida por las y los incautos del amor. Show de stand-up comedy en gira nacional."
+  }
+]
