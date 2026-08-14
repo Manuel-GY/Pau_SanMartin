@@ -1,0 +1,8 @@
+name = "pau-sanmartin"
+compatibility_date = "2026-08-13"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pau-events"
+database_id = "3edf8545-1ca2-4c90-81b1-0c1cdcb96642"

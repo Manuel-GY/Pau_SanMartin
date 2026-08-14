@@ -1,12 +1,20 @@
 {
   "name": "pau-sanmartin-demo",
   "version": "1.0.0",
-  "description": "Web demo para la comediante chilena Pau San Martín: landing entretenida + panel admin de fechas.",
+  "description": "Web demo para la comediante chilena Pau San Martín: landing entretenida + panel admin de fechas. Local con Express, producción en Cloudflare Pages + Functions + D1.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "pages:dev": "wrangler pages dev",
+    "pages:deploy": "wrangler pages deploy",
+    "d1:seed:local": "wrangler d1 execute pau-events --local --file schema.sql",
+    "d1:seed:remote": "wrangler d1 execute pau-events --remote --file schema.sql"
   },
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.123.0"
   }
 }
