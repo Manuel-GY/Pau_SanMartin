@@ -46,6 +46,10 @@ app.get('/api/events', (req, res) => {
   res.json(events);
 });
 
+app.get('/health', (req, res) => {
+  res.json({ ok: true });
+});
+
 app.post('/api/events', (req, res) => {
   if (!isAdmin(req)) return res.status(401).json({ error: 'No autorizado' });
   const clean = sanitize(req.body || {});

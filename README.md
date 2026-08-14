@@ -26,6 +26,21 @@ Abrí http://localhost:3000
 | `/` | Landing pública con fechas |
 | `/admin.html` | Panel admin de fechas |
 
+## 🚀 Desplegar online (Render, gratis)
+
+Es lo más simple: Render lee el `render.yaml` y levanta todo solo.
+
+1. Andá a **https://render.com/deploy?repo=https://github.com/Manuel-GY/Pau_SanMartin** (o botón "Deploy to Render" en GitHub).
+2. Ingresá con tu cuenta de GitHub (o creala).
+3. Confirmá el nombre y el plan **Free** → **Apply**.
+4. Esperá ~2-3 minutos hasta que muestre `Live` y te dé una URL tipo `https://pau-sanmartin.onrender.com`.
+
+Esa URL es el link que podés mandarle a Pau 🎤
+
+> Notas del plan gratis de Render:
+> - La instancia se "duerme" tras ~15 min sin visitas y tarda ~30-60 s en despertar con el primer click.
+> - Los cambios hechos desde el panel admin se pierden si la instancia se reinicia (vuelve a las fechas del `data/events.json`). Para persistencia real conviene usar una DB (ver próximos pasos).
+
 ## 🔑 Admin
 
 - PIN por defecto: `myriam2026` (se puede cambiar con la variable de entorno `ADMIN_PIN`).
@@ -61,6 +76,6 @@ pau-sanmartin-demo/
 
 ## 🛠️ Próximos pasos posibles
 
-- Usar una DB real (SQLite/PostgreSQL) o un servicio como Supabase.
-- Subir con Docker o desplegar en Render / Railway / Vercel.
+- Usar una DB real (SQLite/PostgreSQL) o un servicio como Supabase para que los cambios del admin persistan.
+- Desplegar en Render (listo con `render.yaml`) y migrar a un plan pago si se quiere persistencia.
 - Proteger el admin con contraseña por entorno (no "hardcodeada").
