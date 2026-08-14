@@ -52,6 +52,7 @@ async function loadEvents() {
   eventsBox.innerHTML = data
     .map((e) => `
       <div class="admin-event">
+        ${e.poster ? `<img class="admin-event-poster" src="${e.poster}" alt="Afiche" loading="lazy" />` : ''}
         <div class="admin-event-info">
           <strong>${e.title}</strong>
           <span>${dateLabel(e.date)}${e.time ? ' · ' + e.time : ''}</span><br />
@@ -123,6 +124,7 @@ $('event-form').addEventListener('submit', async (e) => {
     address: $('f-address').value,
     price: $('f-price').value,
     ticketUrl: $('f-ticket').value,
+    poster: $('f-poster').value,
     description: $('f-desc').value,
   };
   const { ok, data } = await api('/api/events', {

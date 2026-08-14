@@ -53,8 +53,17 @@ function eventCard(e, muted = false) {
     ? `<a class="btn btn-primary" style="padding:10px 20px;font-size:0.9rem" href="${e.ticketUrl}" target="_blank" rel="noopener">🎟️ Entradas</a>`
     : '<span class="event-price">Proximamente</span>';
 
+  const poster = e.poster
+    ? `<a class="event-poster" href="${e.poster}" target="_blank" rel="noopener" aria-label="Afiche del evento">
+         <img src="${e.poster}" alt="Afiche: ${e.title}" loading="lazy" />
+       </a>`
+    : `<div class="event-poster event-poster-empty" aria-hidden="true">
+         <span>🎭</span><small>Afiche próximamente</small>
+       </div>`;
+
   return `
     <article class="event-card" ${muted ? 'style="opacity:0.6"' : ''}>
+      ${poster}
       <div class="event-date">
         <span class="day">${dayNum(e.date)}</span>
         <span class="mon">${monthShort(e.date)}</span>

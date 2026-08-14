@@ -1,14 +1,80 @@
 [
   {
+    "id": "seed-vina",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-06-19",
+    "time": "21:00",
+    "city": "Viña del Mar",
+    "venue": "Barbones Comedy Enjoy Viña",
+    "address": "Av. San Martín 199 (Casino Enjoy Viña del Mar)",
+    "price": "Consultar",
+    "ticketUrl": "https://linktr.ee/sumosacerdote_",
+    "poster": "https://strapi.grafitica.com/uploads/events_zngzk3gj_publish_compressed_1e25c7638e.jpg",
+    "description": "Un show de stand up comedy que se forja como un chisme que se salió de las manos."
+  },
+  {
+    "id": "seed-concepcion",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-07-11",
+    "time": "20:30",
+    "city": "Concepción",
+    "venue": "Teatro Lihuén",
+    "address": "Teatro Lihuén, Concepción, Chile",
+    "price": "Consultar",
+    "ticketUrl": "https://linktr.ee/sumosacerdote_",
+    "poster": "https://strapi.grafitica.com/uploads/events_zngzk3gj_publish_compressed_1e25c7638e.jpg",
+    "description": "La historia de todo lo que puede salir mal, de lo que no debió pasar y cuyo único alivio es el ridículo y la exposición."
+  },
+  {
+    "id": "seed-valdivia",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-07-18",
+    "time": "21:00",
+    "city": "Valdivia",
+    "venue": "La Bota Cervecera",
+    "address": "La Bota Cervecera, Valdivia, Chile",
+    "price": "Consultar",
+    "ticketUrl": "https://linktr.ee/sumosacerdote_",
+    "poster": "https://strapi.grafitica.com/uploads/events_zngzk3gj_publish_compressed_1e25c7638e.jpg",
+    "description": "Están cordialmente invitad@s a mi nuevo show de stand-up comedy. Un chisme que se salió de las manos. ❤️‍🩹"
+  },
+  {
+    "id": "seed-temuco",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-07-31",
+    "time": "21:00",
+    "city": "Temuco",
+    "venue": "Casa Birra",
+    "address": "Casa Birra, Temuco, Chile",
+    "price": "Consultar",
+    "ticketUrl": "https://linktr.ee/sumosacerdote_",
+    "poster": "https://strapi.grafitica.com/uploads/events_zngzk3gj_publish_compressed_1e25c7638e.jpg",
+    "description": "La historia de todo lo que puede salir mal. Para las y los incautos del amor."
+  },
+  {
+    "id": "seed-pucon",
+    "title": "\"MYRIAM\" - Show de stand-up comedy",
+    "date": "2026-08-01",
+    "time": "20:00",
+    "city": "Pucón",
+    "venue": "Monkey Bros Bar",
+    "address": "Monkey Bros Bar, Pucón, Chile",
+    "price": "Consultar",
+    "ticketUrl": "https://linktr.ee/sumosacerdote_",
+    "poster": "https://strapi.grafitica.com/uploads/events_zngzk3gj_publish_compressed_1e25c7638e.jpg",
+    "description": "Un show que representa mi verdad, pero también una verdad compartida por las y los incautos del amor."
+  },
+  {
     "id": "seed-palermo",
     "title": "\"MYRIAM\" - Show de stand-up comedy",
     "date": "2026-08-05",
     "time": "21:00",
     "city": "Santiago",
     "venue": "Palermo Teatro Bar",
-    "address": "Palermo Teatro Bar",
-    "price": "Consultar",
-    "ticketUrl": "https://linktr.ee/sumosacerdote_",
+    "address": "José Manuel Infante 1414, Providencia",
+    "price": "GENERAL $9.000",
+    "ticketUrl": "https://www.comediaticket.cl/shop/events_details/pau-san-martin-en-palermo-teatro-bar_wk99s",
+    "poster": "https://strapi.grafitica.com/uploads/events_zngzk3gj_publish_compressed_1e25c7638e.jpg",
     "description": "La historia de todo lo que puede salir mal. El chisme que se salió de las manos."
   },
   {
@@ -21,6 +87,7 @@
     "address": "Sargento Aldea 1680, Aysén, Chile",
     "price": "GENERAL $10.000",
     "ticketUrl": "https://www.comediaticket.cl/shop/events_details/pau-san-martin-en-aysen_3qnqr",
+    "poster": "https://cdn.comediaticket.cl/events/1/events-hhoaphi8-publish.png",
     "description": "\"Myriam\" es la historia de todo lo que puede salir mal, de lo que no debió pasar y cuyo único alivio es el ridículo y la exposición. Un chisme que se salió de las manos."
   },
   {
@@ -33,6 +100,7 @@
     "address": "Kuruf Patagonia, Coyhaique, Chile",
     "price": "GENERAL $10.000",
     "ticketUrl": "https://www.comediaticket.cl/shop/events_details/pau-san-martin-en-coyhaique_qrn0x",
+    "poster": "https://cdn.comediaticket.cl/events/1/events-z3y6nlxj-publish.png",
     "description": "Una verdad compartida por las y los incautos del amor. Show de stand-up comedy en gira nacional."
   }
 ]

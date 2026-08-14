@@ -32,7 +32,7 @@ function isAdmin(req) {
 }
 
 function sanitize(event) {
-  const allowed = ['title', 'date', 'time', 'city', 'venue', 'address', 'price', 'ticketUrl', 'description'];
+  const allowed = ['title', 'date', 'time', 'city', 'venue', 'address', 'price', 'ticketUrl', 'poster', 'description'];
   const clean = {};
   for (const key of allowed) {
     if (typeof event[key] === 'string') clean[key] = event[key].trim();
